@@ -1,0 +1,63 @@
+html {
+}
+
+
+body {
+	color: #000000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+	
+
+ }
+
+
+h1{
+	color: #000000;
+
+}
+
+/*Este item abaixo é para teste 
+
+}*/
+
+
+/*.Menu {
+	position: absolute;
+	top: 30;
+	right: 100;
+	left: 100;
+	background-color: #FFFFFF;
+}*/
+
+/*Fiz agora essa parte
+*/
+
+
+@media (max-width: 320px){
+	.container{/* deixa a pagina mais flexivel nos celulares */
+		width: 96%;
+	}
+	/* adicionar aqui os novos estilos para mobile */
+}
+
+.Pesquisas{
+	color:#000000;
+
+}
+.jumbotron {
+	background-color: #239B56;
+}
+
+
+.menu-opcoes ul li{
+	display: inline;
+	margin-left: 20px;
+}
+
+header {
+	position: relative;
+}
+
+}
