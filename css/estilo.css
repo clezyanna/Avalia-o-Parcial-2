@@ -3,61 +3,53 @@ html {
 
 
 body {
-	color: #000000;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	margin-left: auto;
-	margin-right: auto;
-	width: 940px;
+	color: #000000;/*A cor da letra*/
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;/*A LETRA*/
+	margin-left: auto;/*A MARGEM*/
+	margin-right: auto/*A MARGEM*/
+	width: 940px;/*A RESOLUÇÃO*/
 	
 
  }
 
 
 h1{
-	color: #000000;
-
-}
-
-/*Este item abaixo é para teste 
-
-}*/
-
-
-/*.Menu {
-	position: absolute;
-	top: 30;
-	right: 100;
-	left: 100;
-	background-color: #FFFFFF;
-}*/
-
-/*Fiz agora essa parte
-*/
-
-
-@media (max-width: 320px){
-	.container{/* deixa a pagina mais flexivel nos celulares */
-		width: 96%;
-	}
-	/* adicionar aqui os novos estilos para mobile */
-}
-
-.Pesquisas{
-	color:#000000;
-
-}
-.jumbotron {
-	background-color: #239B56;
+	color: #000000;/*A letra do h1*/
 }
 
 
-.menu-opcoes ul li{
+
+.container{/* deixa a pagina mais flexivel nos celulares */
+		width: 100%;
+}
+	
+
+.jumbotron jumbotron-fluid{ /*O cabelçalho*/
+	background-color: #52BE80;/*Cor de fundo*/
+}
+
+
+.menu-opcoes ul li{/*O menu com as opções*/
 	display: inline;
 	margin-left: 20px;
+	color: 000000;
+	background: #FFFFFF;
 }
 
 header {
 	position: relative;
 }
+
+
+.Documento{
+	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+    height:100px;
+    position: relative;
+}
+
+
 
 }
